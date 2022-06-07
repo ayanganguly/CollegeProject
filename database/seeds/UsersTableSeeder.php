@@ -26,7 +26,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Brain Stocks',
             'email' => 'user@gmail.com',
             'contact' => '01712121212',
-            'password' => bcrypt(''),
+            'password' => bcrypt('rootuser'),
             'created_at' => '2020-09-01 21:18:10.000000',
             'updated_at' => '2020-09-01 21:18:10.000000',
         ]);
